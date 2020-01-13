@@ -1,4 +1,5 @@
 # nodejs-soketio
-docker-compose up --build
 
-http://localhost:3000/
+Run `docker-compose up --build`
+
+Url `http://localhost:3000/`
