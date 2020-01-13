@@ -2,13 +2,9 @@ FROM node:carbon
 
 WORKDIR /app
 
-RUN npm install -g nodemon
-
-COPY package*.json ./
+COPY . /app
 
 RUN npm install
-
-COPY src /app
 
 EXPOSE 3000
 
